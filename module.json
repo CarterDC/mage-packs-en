@@ -1,0 +1,99 @@
+{
+  "name": "mage-packs-en",
+  "title": "Mage Packs En",
+  "description": "Items and Journal Compendiums<br>In [En], for the Mage-Fr system",
+  "version": "0.1.0",
+  "minimumCoreVersion" : "0.8.3",
+  "compatibleCoreVersion" : "0.8.9",
+  "author": "Carter_DC",
+  "authors": [
+    {
+      "name": "Carter_DC",
+      "discord": "Carter_DC#1097"
+    }
+  ],
+  "esmodules": ["/scripts/mage-packs.js"],
+  "styles": ["styles/mage-packs.css"],
+  "languages": [],
+  "packs": [
+    {
+      "name": "essences",
+      "label": "Avatar Essences",
+      "path": "./packs/avatar-essences.db",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "name": "backgrounds",
+      "label": "Backgrounds",
+      "path": "./packs/backgrounds.db",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "base-abilities-m20e",
+      "label": "Base Abilities M20",
+      "path": "./packs/base-abilities-m20e.db",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "factions-mage",
+      "label": "Mage Factions",
+      "path": "./packs/factions-mage.db",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "name": "flaws",
+      "label": "Flaws",
+      "path": "./packs/flaws.db",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "merits",
+      "label": "Merits",
+      "path": "./packs/merits.db",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "natures-demeanors",
+      "label": "Natures & Demeanors",
+      "path": "./packs/personality-archetypes.db",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "name": "prototypes",
+      "label": "Item Prototypes",
+      "path": "./packs/prototypes.db",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "secondary-abilities",
+      "label": "Secondary Abilities",
+      "path": "./packs/secondary-abilities.db",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "trait-desc",
+      "label": "Traits Descriptions",
+      "path": "./packs/trait-desc.db",
+      "entity": "JournalEntry",
+      "private": false
+    }
+  ],
+  "dependecies": [
+    {
+      "type": "system",
+      "name": "mage-fr"
+    }
+  ],
+  "url": "https://github.com/CarterDC/mage-packs-en",
+  "manifest": "https://github.com/CarterDC/mage-packs-en/releases/latest/download/module.json",
+  "download": ""
+}
