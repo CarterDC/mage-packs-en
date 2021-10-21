@@ -2,7 +2,7 @@
   "name": "mage-packs-en",
   "title": "Mage Packs En",
   "description": "Items and Journal Compendiums<br>In [En], for the Mage-Fr system",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "minimumCoreVersion" : "0.8.3",
   "compatibleCoreVersion" : "0.8.9",
   "author": "Carter_DC",
